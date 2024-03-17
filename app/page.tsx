@@ -8,9 +8,6 @@ export default function Home() {
       <div className="flex gap-10 justify-center m-10">
         <div>
           <Hero></Hero>
-          <Hero></Hero>
-          <Hero></Hero>
-
           <Footer></Footer>
         </div>
         <div>

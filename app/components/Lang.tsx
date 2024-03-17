@@ -14,7 +14,7 @@ const Lang = () => {
       </div>
 
       <div className="flex gap-5">
-        <Button type={"submit"} title={"Türkçe"} background={"blue"}></Button>
+        <Button type={"submit"} title={"Türkçe"} background={"purple"}></Button>
         <Button
           type={"submit"}
           title={"İngilizce"}
