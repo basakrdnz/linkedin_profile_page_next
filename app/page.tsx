@@ -5,16 +5,16 @@ import Lang from "./components/Lang";
 export default function Home() {
   return (
     <>
-      <div className="flex gap-10 justify-center my-10">
-        <div className="">
+      <div className="flex gap-10 justify-center m-10">
+        <div>
           <Hero></Hero>
-         
+          <Hero></Hero>
+          <Hero></Hero>
+
           <Footer></Footer>
         </div>
-        <div className="">
+        <div>
           <Lang></Lang>
-          
-
         </div>
       </div>
     </>

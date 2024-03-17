@@ -16,7 +16,7 @@ const Hero = () => {
             className="z-0 shadow-md rounded-3xl"
           ></Image>
           <div className="ml-5 rounded-full w-48 h-48 bg-purple-200 -mt-32 z-20 absolute"><Image src={""} alt={""}></Image></div>
-        <Link href={""} className="absolute right-8 mt-6 z-20"><Image src="/pencil.png" alt={""} height={20} width={20}></Image></Link>
+        <Link href={""} className="absolute right-8 mt-6 z-20"><Image src="/pencil.png" alt={""} height={35} width={35}></Image></Link>
         </div>
         <div className="flex flex-col mt-20">
           <div className="flex">
