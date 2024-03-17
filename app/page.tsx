@@ -1,3 +1,4 @@
+import { Analysis } from "./components/Analysis";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Lang from "./components/Lang";
@@ -5,9 +6,10 @@ import Lang from "./components/Lang";
 export default function Home() {
   return (
     <>
-      <div className="flex gap-10 justify-center m-10">
+      <div className="flex">
         <div>
           <Hero></Hero>
+          <Analysis></Analysis>
           <Footer></Footer>
         </div>
         <div>

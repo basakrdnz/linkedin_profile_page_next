@@ -26,9 +26,9 @@ const NavBar = () => {
             {NAV_LİNKS.map((link, index) => (
               <li key={index}>
                 <a href={link.href}>
-                  <div className="grid h-auto w-auto grid-cols-2 rounded-xl  hover:border-2 hover:bg-purple-50 px-4    ">
-                    <Image src={link.icon} alt="Icon" width={50} height={50} />
-                    <div className=" my-auto opacity-60 transition-opacity duration-400 hover:opacity-100 font-semibold  ">
+                  <div className="grid grid-cols-2 rounded-xl  hover:border-y-2 hover:bg-purple-50 px-4    ">
+                    <Image src={link.icon} alt="Icon" width={50} height={50} className="min-w-12" />
+                    <div className="my-auto opacity-60 transition-opacity duration-400 hover:opacity-100 font-semibold  ">
                       {link.label}
                     </div>
                   </div>

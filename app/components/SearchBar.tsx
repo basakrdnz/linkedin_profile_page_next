@@ -5,9 +5,9 @@ const SearchBar = () => {
   return (
     <section className='flex text-lg relative ml-3'>
       <form action="">
-        <Image src="/icons8-search-64.png" alt={''} width={30} height={30} className='absolute z-20 top-2 left-2'></Image>
-        <input type="text" className='block bg-gray-100 w-48 rounded-md px-5 py-2'
-         value="     Arama Yap"   />
+        <Image src="/icons8-search-64.png" alt={''} width={30} height={30} className='absolute z-20 top-3 left-2'></Image>
+        <input type="text" className='hover:cursor-pointer bg-gray-100 w-auto rounded-xl px-6 py-3'
+         value="    Arama Yap"   />
         </form>
       </section>
   )
