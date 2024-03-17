@@ -18,12 +18,13 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <body className="flex">
-        <NavBar></NavBar>
-        <main>
-          {children}
-        </main>
+      <body>
+        <div className="flex">
+          <NavBar></NavBar>
+          <main>{children}</main>
+        </div>
+        <Footer></Footer>
       </body>
     </html>
-  )
+  );
 }

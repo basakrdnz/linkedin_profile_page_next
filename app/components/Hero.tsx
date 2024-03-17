@@ -22,8 +22,8 @@ const Hero = () => {
           <div className="flex justify-between">
             <div className="flex gap-5">
               <h1>Başak Karadeniz</h1>
-              <div className="m-auto w-auto px-4 rounded-lg border-2 border-purple-300 border-dotted hover:border-purple-600 ">
-                <Link href={"/"} className="text-gray-700">Hemen doğrula</Link>
+              <div className="m-auto w-auto px-4 rounded-lg border-2 border-gray-600  border-dotted hover:border-purple-600 hover:font-medium  ">
+                <Link href={"/"} className="text-gray-800">Hemen doğrula</Link>
               </div>
             </div>
             <div className="flex gap-2 mr-4">

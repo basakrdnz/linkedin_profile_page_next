@@ -22,6 +22,7 @@ h2,p{
  box-shadow: 6px 6px 6px 6px rgba(57, 68, 219, 0.1);
  margin: 30px;
 }
+
 @media (max-width: 640px) { 
   #component {
     padding: 10px; /* Bunu ekran küçüldüğünde iconlar gittiği için diyorum*/

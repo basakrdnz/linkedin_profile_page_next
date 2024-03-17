@@ -10,12 +10,12 @@ export default function Home() {
         <div>
           <Hero></Hero>
           <Analysis></Analysis>
-          <Footer></Footer>
         </div>
         <div>
           <Lang></Lang>
         </div>
       </div>
+
     </>
   );
 }
