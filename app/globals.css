@@ -4,19 +4,40 @@
 
 
 body{
-  background-color: #eaf1f5;
+  background-color: #e6e3e9;
 }
 h1{
   font-size:x-large;
   font-weight: 500;
 }
+h2,p{
+  font-size: large;
+}
 #component{
+ 
  box-shadow: 10px;
  background-color: white;
  padding: 30px;
  border-radius: 50px;
  box-shadow: 6px 6px 6px 6px rgba(57, 68, 219, 0.1);
+ margin: 30px;
 }
+
+@media (max-width: 640px) { 
+  #component {
+    padding: 10px; /* Bunu ekran küçüldüğünde iconlar gittiği için diyorum*/
+  }
+}
+
+.dropdown {
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+.dropdown.open {
+  opacity: 1;
+  overflow: auto;
+}
+
 
 
 

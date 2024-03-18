@@ -16,18 +16,17 @@ const Hero = () => {
             className="z-0 shadow-md rounded-3xl"
           ></Image>
           <div className="ml-5 rounded-full w-48 h-48 bg-purple-200 -mt-32 z-20 absolute"><Image src={""} alt={""}></Image></div>
-        <Link href={""} className="absolute right-8 mt-6 z-20"><Image src="/pencil.png" alt={""} height={20} width={20}></Image></Link>
+        <Link href={""} className="absolute right-8 mt-6 z-20"><Image src="/pencil.png" alt={""} height={35} width={35}></Image></Link>
         </div>
-        <div className="flex flex-col mt-20">
-          <div className="flex">
+        <div className="flex flex-col mt-20 gap-3">
+          <div className="flex justify-between">
             <div className="flex gap-5">
               <h1>Başak Karadeniz</h1>
-
-              <div className="  m-auto w-auto px-4 rounded-lg border-4 border-dotted border-blue-500 ">
-                <Link href={"/"}>Hemen doğrula</Link>
+              <div className="m-auto w-auto px-4 rounded-lg border-2 border-gray-600  border-dotted hover:border-purple-600 hover:font-medium  ">
+                <Link href={"/"} className="text-gray-800">Hemen doğrula</Link>
               </div>
             </div>
-            <div className="flex gap-2">
+            <div className="flex gap-2 mr-4">
               <Image
                 src="/ted_niversitesi_logo.jpg"
                 alt={""}
@@ -52,8 +51,8 @@ const Hero = () => {
               147 bağlantı
             </Link>
           </div>
-          <div className="flex">
-            <Button type={"submit"} title={"Açık"} background={"blue"}></Button>
+          <div className="flex gap-3">
+            <Button type={"submit"} title={"Açık"} background={"purple"}></Button>
             <Button
               type={"submit"}
               title={"Profil bölümü ekle"}

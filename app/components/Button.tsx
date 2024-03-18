@@ -5,17 +5,17 @@ type ButtonProps = {
   title: string;
   icon?: string;
   full?: boolean; 
-  background: "blue" | "white" | "gray";
+  background: "purple" | "white" | "gray";
 };
 
 const Button = ({ type, title, icon, full, background }: ButtonProps) => {
   return (
     <button
-      className={`flex items-center gap-2 py-2 px-10 rounded-full border-2  
+      className={`flex items-center text-black gap-2 py-2 px-10 rounded-full border-2 font-medium border-gray-300 shadow-sm hover:border-gray-400 hover:font-bold  
       ${full && "w-full"} 
-      ${background == "blue"&& "bg-blue-300" }
-      ${background == "white"&& "bg-white" }
-      ${background == "gray"&& "bg-gray-400" }
+      ${background == "purple"&& "bg-purple-300 text-gray-600" }
+      ${background == "white"&& "bg-white text-gray-600" }
+      ${background == "gray"&& "bg-gray-300 text-gray-600" }
       `}
       type={type}
     >

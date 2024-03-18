@@ -3,11 +3,11 @@ import React from 'react'
 
 const SearchBar = () => {
   return (
-    <section className='flex my-auto text-lg '>
+    <section className='flex text-lg relative ml-3 '>
       <form action="">
-        <Image src="/search_icon.png" alt={''} width={30} height={30} className='absolute top-4  z-10'></Image>
-        <input type="text" className='flex relative bg-gray-100 rounded-md px-5 py-2'
-         value="   Arama Yap"   />
+        <Image src="/icons8-search-64.png" alt={''} width={30} height={30} className='absolute z-20 top-3 left-2'></Image>
+        <input type="text" className='hover:cursor-pointer max-w-52 bg-gray-100 w-auto rounded-xl px-6 py-3'
+         value="    Arama Yap"   />
         </form>
       </section>
   )

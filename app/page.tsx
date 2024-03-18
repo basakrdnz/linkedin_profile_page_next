@@ -1,22 +1,23 @@
+import { Analysis } from "./components/Analysis";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Lang from "./components/Lang";
+import DropDown from "./components/DropDown";
 
 export default function Home() {
   return (
     <>
-      <div className="flex gap-10 justify-center my-10">
-        <div className="">
+      <div className="flex">
+        <div>
           <Hero></Hero>
-         
-          <Footer></Footer>
+          <Analysis></Analysis>
         </div>
-        <div className="">
+        <div>
           <Lang></Lang>
-          
-
+          <DropDown></DropDown>
         </div>
       </div>
+
     </>
   );
 }
