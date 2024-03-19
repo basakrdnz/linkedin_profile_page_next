@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <body>
+      <body className="grid">
         <div className="flex">
           <NavBar></NavBar>
           <main>{children}</main>

@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Lang = () => {
   return (
-    <section id="component" >
+    <section id="component" className="md:flex flex-col hidden" >
       <div className="flex justify-between my-4">
         <h1>Profil Dili</h1>
         <Link href={""}>

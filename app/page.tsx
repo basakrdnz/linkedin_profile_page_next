@@ -15,7 +15,7 @@ export default function Home() {
           <Analysis></Analysis>
           <Experience></Experience>
         </div>
-        <div>
+        <div className="hidden md:block">
           <Lang></Lang>
           <AddFriends></AddFriends>
           <DropDown></DropDown>

@@ -5,8 +5,8 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <section className="flex m-auto align-bottom p-16 justify-evenly bg-opacity-80 bg-white rounded-t-2xl">
-      <div className="grid grid-cols-3 gap-4 ">
+    <section className="flex flex-col md:flex-row m-auto md:w-full align-bottom p-16 justify-evenly bg-opacity-80 bg-white rounded-t-2xl">
+      <div className="grid md:grid-cols-3 grid-cols-3 gap-4 ">
         {FOOTER_LINKS_ONE.map((link) => (
           <div className="mx-4">
             <Link href="" key={""} className="hover:underline">
@@ -15,7 +15,7 @@ const Footer = () => {
           </div>
         ))}
       </div>
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4 w-64 my-4 md:my-0">
         {FOOTER_LINKS_TW0.map((label) => (
           <div className="flex gap-3">
             <Image
@@ -23,7 +23,7 @@ const Footer = () => {
               alt={""}
               width={30}
               height={30}
-              className="min-w-12 min-h-12"
+              className="md:min-w-12 md:min-h-12 w-10 h-10"
             ></Image>
             <div className="flex flex-col">
               <Link href={"#"} className="hover:underline">
