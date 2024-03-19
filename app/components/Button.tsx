@@ -11,9 +11,9 @@ type ButtonProps = {
 const Button = ({ type, title, icon, full, background }: ButtonProps) => {
   return (
     <button
-      className={`flex items-center text-black gap-2 py-2 px-10 rounded-full border-2 font-medium border-gray-300 shadow-sm hover:border-gray-400 hover:font-bold  
+      className={`flex items-center text-black gap-2 py-2 px-10 rounded-full border-2 font-medium border-gray-400 shadow-sm hover:border-gray-400 hover:font-bold  
       ${full && "w-full"} 
-      ${background == "purple"&& "bg-purple-300 text-gray-600" }
+      ${background == "purple"&& "bg-purple-200 text-gray-600" }
       ${background == "white"&& "bg-white text-gray-600" }
       ${background == "gray"&& "bg-gray-300 text-gray-600" }
       `}

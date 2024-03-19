@@ -6,7 +6,7 @@ import SearchBar from "./SearchBar";
 
 const NavBar = () => {
   return (
-    <section className="text-gray-600 bg-white shadow-sm m-10 h-full max-w-72" id="component">
+    <section className="text-gray-600 m-10 h-full max-w-72" id="component">
       <nav className="flex flex-col justify-around container gap-5">
         <div className="flex flex-col gap-5">
           <Link href={"/"} className="w-auto">

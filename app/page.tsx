@@ -1,8 +1,9 @@
+import AddFriends from "./components/AddFriends";
 import { Analysis } from "./components/Analysis";
+import DropDown from "./components/DropDown";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Lang from "./components/Lang";
-import DropDown from "./components/DropDown";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         </div>
         <div>
           <Lang></Lang>
+          <AddFriends></AddFriends>
           <DropDown></DropDown>
         </div>
       </div>

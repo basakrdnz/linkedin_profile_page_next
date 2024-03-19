@@ -14,23 +14,32 @@ const DropDown = () => {
       <img
         src="/icons8-menu-64.png"
         alt=""
-        className="fixed bottom-10 right-10 cursor-pointer"
+        className="fixed bottom-10 right-10 cursor-pointer z-20 "
         onClick={toggleDropdown}
       />
-
+      
       <div className={`dropdown ${isOpen ? "open" : ""}`}>
         <div
-          className="fixed bottom-20 right-4 p-4 mt-2 min-w-80 min-h-96
-        "
-        id="component"
+          className="special fixed bottom-2 right-2 p-4 mt-2 min-w-80 min-h-96"
+          id="component"
         >
-          <div className="flex mb-4 p-2"> 
+          <div className="flex mb-4 p-2 gap-8">
             <h1>Mesajlaşma</h1>
             <button>
-              <Image src={""} alt={""}></Image>
+              <Image
+                src="/icons8-ellipsis-50.png"
+                alt={""}
+                height={20}
+                width={20}
+              ></Image>
             </button>
-            <button>
-              <Image src={""} alt={""}></Image>
+            <button onClick={toggleDropdown}>
+              <Image
+                src="/arrow-down.png"
+                alt={""}
+                width={20}
+                height={20}
+              ></Image>
             </button>
           </div>
           <a
