@@ -26,7 +26,7 @@ const AddFriends = () => {
               <div>
               <h2 className="font-medium">{student.name} {student.surname} </h2>
               <p className="text-md">{student.school}</p>
-              <div className="my-2"><Button type={"submit"} title={"Bağlantı kur"} background={"gray"}></Button></div>
+              <div className="my-2"><Button type={"submit"} title={"Bağlantı kur"} background={"white"}></Button></div>
               
               </div>
             </div>
