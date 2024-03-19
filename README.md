@@ -1,10 +1,3 @@
--EKSİKLER-
--Navbara dropdown
--Küçük ekrana da uyumlu hale getirme,resposive
--Footer
--Sağ tarafa önerilen kullanıcılar
--Bir adet yetenek kart bölümü
-
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
