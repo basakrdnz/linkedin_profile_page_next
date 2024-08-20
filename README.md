@@ -4,9 +4,9 @@ HERE IS THE VERCEL LINK OF THE PAGE ::: https://linkedin-profile-page-next.verce
 
 ## SCREENSHOTS
 
-![](public\linkedin_nextjs_img_1.png)
-![](public\linkedin_nextjs_img_2.png)
-![](public\linkedin_nextjs_img_3.png)
+![](public/linkedin_nextjs_img_1.png)
+![](public/linkedin_nextjs_img_2.png)
+![](public/linkedin_nextjs_img_3.png)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
